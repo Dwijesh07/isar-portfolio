@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isar Ujoodah | Software Developer & Data Scientist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Animated Background Particles -->
+    <div class="particles-container">
+        <div class="particle" style="top: 10%; left: 20%; width: 40px; height: 40px; animation-delay: 0s;"></div>
+        <div class="particle" style="top: 30%; left: 70%; width: 30px; height: 30px; animation-delay: 2s;"></div>
+        <div class="particle" style="top: 60%; left: 10%; width: 50px; height: 50px; animation-delay: 4s;"></div>
+        <div class="particle" style="top: 80%; left: 80%; width: 35px; height: 35px; animation-delay: 6s;"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container">
+            <a href="#" class="logo">Isar Ujoodah</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Gradient Background -->
+    <section id="home" class="hero hero-bg">
+        <div class="bg-grid-animated"></div>
+        <div class="container">
+            <div class="hero-content animate-fade-in-up">
+                <h1 class="hero-title">Building Digital Solutions with <span class="highlight text-glow">Code & Data</span></h1>
+                <p class="hero-subtitle">Computer Science Student specializing in Software Development & Data Science. Passionate about creating impactful applications that solve real-world problems.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary hover-lift animate-glow-pulse">
+                        <i class="fas fa-code"></i> View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary hover-lift">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Profile placeholder with gradient border -->
+                <div class="image-container gradient-border">
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user-ninja"></i>
+                        <!-- Replace with: <img src="images/profile.jpg" alt="Isar Ujoodah"> -->
+                    </div>
+                    <div class="status-indicator">
+                        <div class="status-dot"></div>
+                        <span>Available for work</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title animate-fade-in-up">About Me</h2>
+            <p class="section-subtitle">Developer • Data Scientist • Problem Solver</p>
+            
+            <div class="about-content">
+                <div class="about-text animate-fade-in-up" style="animation-delay: 0.2s;">
+                    <p>I'm a final-year Computer Science student at <strong>Swinburne University of Technology</strong>, majoring in both <strong class="highlight">Data Science</strong> and <strong class="highlight">Software Development</strong>.</p>
+                    <p>My journey blends technical rigor with practical problem-solving. From tutoring high school students to building full-stack applications, I've developed a user-focused approach to technology.</p>
+                    <p>Currently leading a university capstone project to design Australia's first Central Bank Digital Currency prototype using blockchain technology, while also developing AI-powered platforms for education and business intelligence.</p>
+                    
+                    <div class="education">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="edu-item category-card">
+                            <h4>Bachelor of Computer Science</h4>
+                            <p class="edu-details">Swinburne University of Technology | July 2023 - July 2026</p>
+                            <p class="edu-majors">Majors: Data Science & Software Development</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card category-card animate-fade-in-up" style="animation-delay: 0.4s;">
+                        <h3>3+</h3>
+                        <p>Full-stack projects deployed</p>
+                    </div>
+                    <div class="stat-card category-card animate-fade-in-up" style="animation-delay: 0.5s;">
+                        <h3>2</h3>
+                        <p>Technical majors</p>
+                    </div>
+                    <div class="stat-card category-card animate-fade-in-up" style="animation-delay: 0.6s;">
+                        <h3>Immediate</h3>
+                        <p>Availability in Melbourne</p>
+                    </div>
+                    <div class="stat-card category-card animate-fade-in-up" style="animation-delay: 0.7s;">
+                        <h3>100%</h3>
+                        <p>Project completion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title animate-fade-in-up">Featured Projects</h2>
+            <p class="section-subtitle">Hands-on applications built from concept to deployment</p>
+            
+            <!-- Project 1: Elite Academy -->
+            <div class="project-card category-card animate-fade-in-up" style="animation-delay: 0.2s;">
+                <div class="project-image">
+                    <div class="image-placeholder gradient-border">
+                        <img src="images/eliteacademyss.png" alt="Elite Academy Platform Screenshot" class="project-screenshot">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-badge gradient-border">Full-stack • Live Demo</div>
+                    <h3 class="project-title">Elite Academy Tutoring Platform</h3>
+                    <p class="project-description">A complete web platform for tutoring business management, featuring student booking, tutor matching, payment processing, and admin dashboard. Built and deployed as a fully functional SaaS solution.</p>
+                    
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">JWT Auth</span>
+                        <span class="tech-tag">Render</span>
+                    </div>
+                    
+                    <div class="project-features">
+                        <h4><i class="fas fa-star"></i> Key Features:</h4>
+                        <ul>
+                            <li>User authentication & role management (Admin/Tutor/Student)</li>
+                            <li>Interactive booking system with calendar integration</li>
+                            <li>Payment processing and invoice generation</li>
+                            <li>Responsive design for all devices</li>
+                            <li>Admin dashboard for business analytics</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="https://eliteacademy-1t6i.onrender.com" target="_blank" class="btn btn-primary hover-lift">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/Dwijesh07/eliteacademy" target="_blank" class="btn btn-secondary hover-lift">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2: XNA AI -->
+            <div class="project-card category-card animate-fade-in-up" style="animation-delay: 0.3s;">
+                <div class="project-image">
+                    <div class="image-placeholder gradient-border">
+                        <img src="images/xna-aiss.png" alt="XNA AI Platform Screenshot" class="project-screenshot">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-badge gradient-border">AI/ML • Business Intelligence</div>
+                    <h3 class="project-title">XNA AI Professional Tools Platform</h3>
+                    <p class="project-description">An enterprise-grade AI platform with 34+ specialized tools for professionals across business intelligence, finance, legal, sales, and document processing. Designed to transform data into business decisions.</p>
+                    
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Enterprise APIs</span>
+                    </div>
+                    
+                    <div class="project-features">
+                        <h4><i class="fas fa-star"></i> Key Features:</h4>
+                        <ul>
+                            <li>34+ specialized AI tools across 6 professional categories</li>
+                            <li>Business Intelligence: Market research, competitor analysis, SWOT generation</li>
+                            <li>Finance & Accounting: Financial analysis, report summarization, budgeting</li>
+                            <li>Legal & Compliance: Contract review, privacy policy generation, compliance checks</li>
+                            <li>Sales & Marketing: Pitch generation, marketing strategy, ROI calculation</li>
+                            <li>Document Processing: Report generation, presentation creation, meeting minutes</li>
+                            <li>Startup Tools: Business plans, pitch decks, funding proposals</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-links">
+                        <button class="btn btn-secondary hover-lift" disabled>
+                            <i class="fas fa-code"></i> Under Development
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3: Nyx AI -->
+            <div class="project-card category-card animate-fade-in-up" style="animation-delay: 0.4s;">
+                <div class="project-image">
+                    <div class="image-placeholder gradient-border">
+                        <img src="images/nyxaipic.png" alt="Nyx AI Platform Screenshot" class="project-screenshot">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-badge gradient-border">AI/ML • Education</div>
+                    <h3 class="project-title">Nyx AI Educational Platform</h3>
+                    <p class="project-description">An AI-powered suite of 25+ specialized tools for students and professionals, featuring real-time AI assistance, automated grading, and interactive learning modules across multiple disciplines.</p>
+                    
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Groq API</span>
+                        <span class="tech-tag">ML Libraries</span>
+                    </div>
+                    
+                    <div class="project-features">
+                        <h4><i class=""></i> Key Features:</h4>
+                        <ul>
+                            <li>25+ specialized AI tools for education and professional development</li>
+                            <li>Core tools: Summarization, humanization, grammar checking, paraphrasing</li>
+                            <li>Academic tools: Citations, flashcards, quiz maker, exam preparation</li>
+                            <li>Discipline-specific tools: Code explainer, legal summary, medical terms, math solver</li>
+                            <li>Real-time Groq API integration with NYXD1 enhanced model</li>
+                            <li>Multi-language support and context-aware AI responses</li>
+                            <li>Freemium model with 12 free tools and 13 premium tools</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="https://nyxai-three.vercel.app/" target="_blank" class="btn btn-primary hover-lift">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/Dwijesh07/nyx-ai-frontend" target="_blank" class="btn btn-secondary hover-lift">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 4: CBDC -->
+            <div class="project-card category-card animate-fade-in-up" style="animation-delay: 0.5s;">
+                <div class="project-image">
+                    <div class="image-placeholder gradient-border">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-badge gradient-border">Blockchain • Capstone</div>
+                    <h3 class="project-title">Australian CBDC Digital Currency Prototype</h3>
+                    <p class="project-description">University capstone project designing Australia's first Central Bank Digital Currency prototype using Hyperledger Fabric for secure, real-time interbank settlements.</p>
+                    
+                    <div class="project-tech">
+                        <span class="tech-tag">Hyperledger Fabric</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Blockchain</span>
+                        <span class="tech-tag">Smart Contracts</span>
+                    </div>
+                    
+                    <div class="project-features">
+                        <h4><i class="fas fa-code-branch"></i> In Progress:</h4>
+                        <ul>
+                            <li>Multi-organization blockchain network with RBA, banks, and FMIs</li>
+                            <li>Smart contracts for asset minting/transfer and settlement</li>
+                            <li>Transaction visualization dashboard with real-time updates</li>
+                            <li>REST API integration layer for external system communication</li>
+                            <li>Permissioned ledger with TLS encryption and channel governance</li>
+                            <li>Docker container orchestration for network deployment</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-links">
+                        <button class="btn btn-secondary hover-lift" disabled>
+                            <i class="fas fa-code"></i> Under Development
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title animate-fade-in-up">Technical Skills</h2>
+            <p class="section-subtitle">Tools and technologies I work with</p>
+            
+            <div class="skills-grid">
+                <div class="skill-category category-card animate-fade-in-up" style="animation-delay: 0.2s;">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">JavaScript (ES6+)</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">HTML/CSS</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category category-card animate-fade-in-up" style="animation-delay: 0.3s;">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks & Libraries</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">React.js</span>
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Express.js</span>
+                        <span class="skill-item">Pandas / NumPy</span>
+                        <span class="skill-item">Scikit-learn</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category category-card animate-fade-in-up" style="animation-delay: 0.4s;">
+                    <h3><i class="fas fa-database"></i> Databases & Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">Figma</span>
+                        <span class="skill-item">Jira</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category category-card animate-fade-in-up" style="animation-delay: 0.5s;">
+                    <h3><i class="fas fa-cogs"></i> Specializations</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">REST APIs</span>
+                        <span class="skill-item">Blockchain Basics</span>
+                        <span class="skill-item">Data Visualization</span>
+                        <span class="skill-item">Agile/Scrum</span>
+                        <span class="skill-item">Cloud Deployment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title animate-fade-in-up">Get In Touch</h2>
+            <p class="section-subtitle">Open to opportunities in Melbourne</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item category-card animate-fade-in-up" style="animation-delay: 0.2s;">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:ujoodahisar@gmail.com" class="contact-link">ujoodahisar@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item category-card animate-fade-in-up" style="animation-delay: 0.3s;">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+61466364418" class="contact-link">0466 364 418</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item category-card animate-fade-in-up" style="animation-delay: 0.4s;">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Melbourne, Australia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item category-card animate-fade-in-up" style="animation-delay: 0.5s;">
+                        <div class="contact-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div>
+                            <h4>Resume</h4>
+                            <a href="Resume_Isar_U.pdf" download class="contact-link">Download PDF</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="www.linkedin.com/in/isar-ujoodah-ab93ba2a2" target="_blank" class="social-link hover-lift">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/Dwijesh07/eliteacademy" target="_blank" class="social-link hover-lift">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="mailto:ujoodahisar@gmail.com" class="social-link hover-lift">
+                        <i class="fas fa-envelope"></i> Email Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glass">
+        <div class="container">
+            <p>© 2024 Isar Ujoodah. All rights reserved.</p>
+            <p>Built with HTML, CSS, and JavaScript • Deployed on GitHub Pages</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
